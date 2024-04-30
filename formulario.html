@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    
+<h2>Formulario</h2>
+
+
+<div class="formulario">
+
+<form action="Registro" method="post">
+
+    <div class="formulario-nombre">
+        <label for="nombre">Nombre :</label>
+        <input type="text" id="nombre" name="Nombre" placeholder="Ingresa tu nombre">
+    </div>
+<br>
+    <div class="formulario-apellido">
+        <label for="apellido">Apellido :</label>
+        <input type="text" id="nombre" name="apellido" placeholder="Ingresa tu apellido">
+    </div>
+<br>    
+    <div class="formulario-edad">
+        <label for="edad">Edad : </label>
+        <input type="number" id="edad" name="edad" placeholder="Ingresa tu edad" />
+    </div>
+<br>
+    <div class="formulario-genero">
+        <label for="Genero">Genero : </label>
+        <select id="Genero" name="Genero">
+            <option value="Hombre">Hombre</option> 
+            <option value="Mujer">Mujer</option>
+            <option value="Prefiero no especificar">Prefiero no especificar</option>
+        </select>
+    </div>
+<br>    
+    <div class="formulario-correo">
+    <label for="correo">Correo electronico :</label>
+    <input type="text" id="correo electronico" name="correo electronico" placeholder="Ingresa tu correo electronico">
+    </div>
+<br>    
+    <div class="formulario-contraseña">
+        <label for="clave">Contraseña: </label>
+   <input type="password" id="clave" name="clave" placeholder="Ingresa tu Contraseña">
+    </div>
+<br>
+    <div class="formulario-fecha">
+        <label for="fecha_nacimiento">Fecha de nacimiento: </label>
+        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" />
+    </div>
+<br>
+    <div class="formulario-mensaje">
+        <label for="Mensaje">Mensaje a enviar</label>
+        <textarea id="message" name="message" placeholder="Ingresa un mensaje a enviar"></textarea>
+    </div>
+<br>
+     <div class="formulario-enviar">
+     <input type="submit" value="Enviar">
+     </div>
+
+</form>
+
+</div>
+
+
+
+</body>
+</html>
